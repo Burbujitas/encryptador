@@ -15,7 +15,7 @@
 main{
     display: flex;
     margin-bottom: 50px;
-    margin-left: 80px;
+    margin-left: 350px;
 }
 .txt_entrada{
     border: none;
@@ -37,8 +37,8 @@ main{
     color: #0a3871;
     margin-left: 98px;
     margin-top: 20px;
-    padding-left: 20px;
-    padding-top: 300px;
+    height: 780px;
+    
     position: fixed;
 }
 .txt_salida:focus{

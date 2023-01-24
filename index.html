@@ -18,13 +18,13 @@
         <section>
             <textarea class="txt_entrada" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>    
             <div>
-                <h6 class="informacion">Solo letras minusculas y sin acento</h6>
+                <h6 class="informacion">&#9888; Solo letras minusculas y sin acento</h6>
             </div>
             <div class="botones">
-                <button class="btn_encriptar">
+                <button class="btn_encriptar" onclick="btnEncriptar()">
                     Encriptar
                 </button>
-                <button class="btn_desencriptar">
+                <button class="btn_desencriptar" onclick="btnDesencriptar()">
                     Desencriptar
                 </button>
             </div>
@@ -33,9 +33,10 @@
             <div class="imagen_des">
                 <textarea class="txt_salida" cols="30" rows="10"></textarea>
                 <div>
-                    <button class="btn_copiar">Copiar</button>
+                    <button class="btn_copiar" onclick="btnCopiar()">Copiar</button>
                 </div>
              </div>
         </section>
     </main>
+    <script src="encriptador.js"></script>
 </body>
